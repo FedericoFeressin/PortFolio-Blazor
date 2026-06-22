@@ -1,0 +1,46 @@
+@using PortFolio_Blazor.Models
+@inject PortFolio_Blazor.Services.ProjectsService ProjectsService
+
+<div class="projects">
+    @if (isLoading)
+    {
+        <div class="grid grid-3">
+            @for (var i = 0; i < 6; i++)
+            {
+                <div class="card card-soft skeleton">
+                    <div class="thumb"></div>
+                    <div class="line w-60"></div>
+                    <div class="line w-90"></div>
+                    <div class="line w-70"></div>
+                </div>
+            }
+        </div>
+    }
+    else if (projects.Count == 0)
+    {
+        <div class="card card-soft empty">
+            <h3 class="card-title">Todavía no hay proyectos</h3>
+            <p class="text-muted">Agregá elementos en <code>wwwroot/data/projects.json</code>.</p>
+        </div>
+    }
+    else
+    {
+        <div class="grid grid-3">
+            @foreach (var p in projects)
+            {
+                <ProjectCard Project="p" />
+            }
+        </div>
+    }
+</div>
+
+@code {
+    private bool isLoading = true;
+    private List<Project> projects = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        projects = await ProjectsService.GetProjectsAsync();
+        isLoading = false;
+    }
+}

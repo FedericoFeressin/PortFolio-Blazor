@@ -1,0 +1,69 @@
+{
+  "name": "Federico Feressin",
+  "role": "Full Stack Developer",
+  "tagline": "Construyo experiencias web modernas, rápidas y escalables.",
+  "shortBio": "Desarrollo aplicaciones con ASP.NET y Blazor, páginas webs con HTML5 y CSS, JavaScript, priorizando código limpio, buen rendimiento y una UX cuidada. Me apasiona transformar ideas en productos digitales sólidos.",
+  "longBio": "Soy desarrollador con experiencia en el ecosistema .NET y aplicaciones web full stack. Trabajo con arquitectura por capas, APIs REST y frontends modernos. Disfruto colaborar en equipos ágiles, documentar decisiones técnicas y entregar soluciones mantenibles a largo plazo.",
+  "location": "Remoto / Argentina",
+  "availability": "Disponible para proyectos",
+  "email": "fedeferessin2001@gmail.com",
+  "avatarUrl": "/Fotos/cvperfil.png",
+  "social": {
+    "linkedIn": "https://www.linkedin.com/in/federico-feressin-45704331b/",
+    "gitHub": "https://github.com/FedericoFeressin",
+    "twitter": null,
+    "portfolio": null
+  },
+  "highlights": [
+    "3+ años desarrollando con .NET",
+    "Enfoque en Blazor y arquitectura limpia",
+    "Experiencia en APIs, SQL y despliegue"
+  ],
+  "skillGroups": [
+    {
+      "category": "Backend",
+      "level": 88,
+      "label": "Avanzado",
+      "items": [
+        "C#",
+        "ASP.NET Core",
+        "Entity Framework",
+        "REST APIs",
+        "SQL Server",
+        "JavaScript"
+      ]
+    },
+    {
+      "category": "Frontend",
+      "level": 75,
+      "label": "Intermedio",
+      "items": ["Blazor", "TypeScript", "CSS", "Responsive UI", "HTML5"]
+    },
+    {
+      "category": "DevOps & Tools",
+      "level": 68,
+      "label": "Intermedio",
+      "items": ["Git", "Docker", "CI/CD", "Azure"]
+    }
+  ],
+  "experience": [
+    {
+      "period": "2024 — Presente",
+      "title": "Desarrollador Full Stack",
+      "company": "Empresa / Freelance",
+      "description": "Desarrollo de aplicaciones web con Blazor y APIs en ASP.NET Core, páginas webs con HTML5 y CSS, JavaScript. Integración con bases de datos y despliegue en la nube."
+    },
+    {
+      "period": "2022 — 2024",
+      "title": "Desarrollador .NET",
+      "company": "Proyectos propios",
+      "description": "Creación de dashboards, landings y sistemas administrativos con énfasis en UX y mantenibilidad."
+    },
+    {
+      "period": "2023 - 2024",
+      "title": "Cofundador y Desarrollador",
+      "company": "EnigmaSolutions",
+      "description": "Lideré el desarrollo de una Landing Page para un emprendimiento de equipo de trabajo, utilizando HTML5, CSS y JavaScript para crear una experiencia atractiva y funcional que destaca los servicios que ofrecemos, logrando captar la atención de potenciales clientes y mejorar la presencia en línea de la empresa."
+    }
+  ]
+}

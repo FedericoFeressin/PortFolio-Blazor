@@ -1,0 +1,71 @@
+@using PortFolio_Blazor.Models
+@inject ContactService ContactService
+
+<div class="card card-soft contact-form-card">
+    <h2 class="card-title">Enviar mensaje</h2>
+    <p class="text-muted">Completá el formulario y te responderé a la brevedad.</p>
+
+    <EditForm Model="model" OnValidSubmit="OnSubmitAsync" class="form">
+        <DataAnnotationsValidator />
+        <ValidationSummary class="validation-summary" />
+
+        <div class="field">
+            <label for="contact-name">Nombre</label>
+            <InputText id="contact-name" class="input" @bind-Value="model.Name" placeholder="Tu nombre" />
+            <ValidationMessage For="() => model.Name" class="validation-message" />
+        </div>
+
+        <div class="field">
+            <label for="contact-email">Email</label>
+            <InputText id="contact-email" class="input" type="email" @bind-Value="model.Email" placeholder="tu@email.com" />
+            <ValidationMessage For="() => model.Email" class="validation-message" />
+        </div>
+
+        <div class="field">
+            <label for="contact-message">Mensaje</label>
+            <InputTextArea id="contact-message" class="input textarea" @bind-Value="model.Message" placeholder="Contame sobre tu proyecto..." />
+            <ValidationMessage For="() => model.Message" class="validation-message" />
+        </div>
+
+        <div class="form-actions">
+            <button class="btn btn-primary btn-modern" type="submit" disabled="@isSending">
+                @(isSending ? "Enviando..." : "Enviar mensaje")
+            </button>
+            @if (!string.IsNullOrEmpty(status))
+            {
+                <span class="form-status @statusClass" role="status">@status</span>
+            }
+        </div>
+    </EditForm>
+</div>
+
+@code {
+    private readonly ContactFormModel model = new();
+    private bool isSending;
+    private string status = "";
+    private string statusClass = "";
+
+    private async Task OnSubmitAsync()
+    {
+        isSending = true;
+        status = "Procesando...";
+        statusClass = "is-pending";
+
+        try
+        {
+            await ContactService.SaveAsync(model);
+            status = "¡Mensaje enviado! Gracias por contactarme.";
+            statusClass = "is-success";
+            model.Reset();
+        }
+        catch
+        {
+            status = "No se pudo enviar. Intentá nuevamente.";
+            statusClass = "is-error";
+        }
+        finally
+        {
+            isSending = false;
+        }
+    }
+}

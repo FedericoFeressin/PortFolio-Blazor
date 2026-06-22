@@ -1,0 +1,21 @@
+﻿@inherits LayoutComponentBase
+
+<div class="app-shell">
+    <div class="app-bg" aria-hidden="true"></div>
+
+    <TopNav />
+
+    <main class="app-main">
+        <div class="app-content">
+            @Body
+        </div>
+    </main>
+
+    <SiteFooter />
+</div>
+
+<div id="blazor-error-ui" data-nosnippet>
+    Se produjo un error.
+    <a href="/" class="reload">Recargar</a>
+    <span class="dismiss">✕</span>
+</div>

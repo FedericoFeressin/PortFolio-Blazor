@@ -1,0 +1,40 @@
+[
+  {
+    "id": "Premium-Quality-Conse",
+    "title": "Concesionaria de Autos Premium",
+    "description": "Plataforma de venta de autos premium con gestión de inventario y procesamiento de pedidos, con un catálogo completo, con detalles de precios y simulación de crédito (BETA).",
+    "liveUrl": "https://federicoferessin.github.io/Premium-Quality-Website/",
+    "repoUrl": "https://github.com/FedericoFeressin/Premium-Quality-Website",
+    "badge": "Destacado",
+    "imageUrl": "/Fotos/Premium-Quality.png",
+    "technologies": ["HTML5", "CSS", "JavaScript"],
+    "accentA": "#7c3aed",
+    "accentB": "#06b6d4"
+  },
+
+  {
+    "id": "Wiki-Page",
+    "title": "Wiki Page (En desarrollo) sobre AC Valhalla",
+    "description": "Wiki Page dedicada a AC Valhalla, con información detallada sobre personajes, misiones y mapas. Diseño moderno y navegación intuitiva para fans del juego.",
+    "liveUrl": "https://federicoferessin.github.io/FanPage-de-AC-Valhalla/",
+    "repoUrl": "https://github.com/FedericoFeressin/FanPage-de-AC-Valhalla",
+    "badge": "UI/UX",
+    "imageUrl": "/Fotos/AC-Valhalla.png",
+    "technologies": ["HTML5", "CSS", "JavaScript"],
+    "accentA": "#22c55e",
+    "accentB": "#0ea5e9"
+  },
+
+  {
+    "id": "Landing-Page",
+    "title": "Landing Page para Emprendimiento de equipo de trabajo",
+    "description": "Landing Page para un emprendimiento de equipo de trabajo, utilizando HTML5, CSS y JavaScript para crear una experiencia atractiva y funcional que destaca los servicios que ofrecemos, logrando captar la atención de potenciales clientes y mejorar la presencia en línea de la empresa.",
+    "liveUrl": "https://federicoferessin.github.io/Enigma-Solutions/",
+    "repoUrl": "https://github.com/FedericoFeressin/Enigma-Solutions",
+    "badge": "Frontend",
+    "imageUrl": "/Fotos/Enigma-Solutions.png",
+    "technologies": ["HTML5", "CSS", "JavaScript"],
+    "accentA": "#f97316",
+    "accentB": "#ef4444"
+  }
+]

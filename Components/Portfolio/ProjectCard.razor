@@ -1,0 +1,71 @@
+@using PortFolio_Blazor.Models
+
+<article class="card project-card">
+    <div class="project-thumb" style="@ThumbStyle" role="img" aria-label="@Project.Title"></div>
+
+    <div class="project-content">
+        <div class="project-body">
+            <div class="project-title-row">
+                <h3 class="project-title text-light">@Project.Title</h3>
+                @if (!string.IsNullOrWhiteSpace(Project.Badge))
+                {
+                    <span class="pill">@Project.Badge</span>
+                }
+            </div>
+
+            <p class="text-secondary project-desc">@Project.Description</p>
+
+            @if (Project.Technologies.Count > 0)
+            {
+                <div class="chips chips-compact project-chips">
+                    @foreach (var t in Project.Technologies)
+                    {
+                        <span class="chip">@t</span>
+                    }
+                </div>
+            }
+        </div>
+
+        <div class="project-actions @(HasLiveUrl ? "has-two" : "has-one")">
+            @if (!string.IsNullOrWhiteSpace(Project.LiveUrl))
+            {
+                <a class="btn btn-primary btn-modern btn-sm"
+                   href="@Project.LiveUrl"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Ver proyecto
+                </a>
+            }
+            @if (!string.IsNullOrWhiteSpace(Project.RepoUrl))
+            {
+                <a class="btn btn-ghost btn-modern btn-sm"
+                   href="@Project.RepoUrl"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Ver repositorio
+                </a>
+            }
+        </div>
+    </div>
+</article>
+
+@code {
+    [Parameter, EditorRequired] public Project Project { get; set; } = default!;
+
+    private bool HasLiveUrl => !string.IsNullOrWhiteSpace(Project.LiveUrl);
+
+    private string ThumbStyle
+    {
+        get
+        {
+            if (!string.IsNullOrWhiteSpace(Project.ImageUrl))
+            {
+                return $"background-image: url('{Project.ImageUrl}');";
+            }
+
+            var a = string.IsNullOrWhiteSpace(Project.AccentA) ? "#6366f1" : Project.AccentA;
+            var b = string.IsNullOrWhiteSpace(Project.AccentB) ? "#ec4899" : Project.AccentB;
+            return $"background-image: linear-gradient(135deg, {a}, {b});";
+        }
+    }
+}

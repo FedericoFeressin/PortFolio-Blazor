@@ -1,0 +1,89 @@
+@page "/"
+@inject ProfileService ProfileService
+
+<PageTitle>Inicio — Portfolio</PageTitle>
+
+<div class="page page-inicio">
+    @if (profile is null)
+    {
+        <div class="container page-loading">Cargando...</div>
+    }
+    else
+    {
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow">Hola, soy</p>
+                    <h1 class="hero-title">@profile.Name</h1>
+                    <p class="hero-role">@profile.Role</p>
+                    <p class="hero-tagline">@profile.Tagline</p>
+                    <p class="hero-desc">@profile.ShortBio</p>
+
+                    <div class="hero-actions">
+                        <NavLink class="btn btn-primary btn-modern" href="/proyectos">Ver proyectos</NavLink>
+                        <NavLink class="btn btn-ghost btn-modern" href="/contacto">Contactar</NavLink>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal delay-1">
+                    <div class="avatar-card">
+                        @if (!string.IsNullOrWhiteSpace(profile.AvatarUrl))
+                        {
+                            <img class="avatar-img" src="@profile.AvatarUrl" alt="@profile.Name" />
+                        }
+                        else
+                        {
+                            <div class="avatar-circle" aria-hidden="true">@Initials</div>
+                        }
+                        <div class="avatar-meta">
+                            <div class="avatar-name">@profile.Name</div>
+                            <div class="avatar-sub">@profile.Availability</div>
+                            <span class="status-pill"><span class="status-dot"></span> Activo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-tight">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Resumen</h2>
+                    <p>Lo esencial sobre mi perfil profesional.</p>
+                </div>
+
+                <div class="highlight-grid">
+                    @foreach (var item in profile.Highlights)
+                    {
+                        <div class="card card-soft highlight-card">
+                            <span class="highlight-icon" aria-hidden="true">◆</span>
+                            <p>@item</p>
+                        </div>
+                    }
+                </div>
+
+                <div class="card card-soft intro-card">
+                    <h3 class="card-title">Sobre mí</h3>
+                    <p class="text-secondary">@profile.ShortBio</p>
+                    <div class="intro-actions">
+                        <NavLink class="btn btn-ghost btn-modern" href="/sobre-mi">Ver perfil completo</NavLink>
+                        <NavLink class="btn btn-primary btn-modern" href="/proyectos">Explorar proyectos</NavLink>
+                    </div>
+                </div>
+            </div>
+        </section>
+    }
+</div>
+
+@code {
+    private SiteProfile? profile;
+
+    protected override async Task OnInitializedAsync()
+        => profile = await ProfileService.GetProfileAsync();
+
+    private string Initials => profile is null
+        ? "?"
+        : string.Concat(profile.Name.Split(' ', StringSplitOptions.RemoveEmptyEntries)
+            .Take(2)
+            .Select(w => char.ToUpper(w[0])));
+}

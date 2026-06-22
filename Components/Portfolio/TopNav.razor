@@ -1,0 +1,65 @@
+@using Microsoft.AspNetCore.Components.Routing
+@inject IJSRuntime JS
+@rendermode InteractiveServer
+
+<header class="topnav">
+    <div class="container topnav-inner">
+        <NavLink class="brand" href="/" Match="NavLinkMatch.All" @onclick="CloseMobileMenu">
+            <span class="brand-dot"></span>
+            <span>Portfolio</span>
+        </NavLink>
+
+        <nav class="topnav-links" aria-label="Navegación principal">
+            <NavLink class="navlink" href="/" Match="NavLinkMatch.All" @onclick="CloseMobileMenu">Inicio</NavLink>
+            <NavLink class="navlink" href="/sobre-mi" @onclick="CloseMobileMenu">Sobre mí</NavLink>
+            <NavLink class="navlink" href="/proyectos" @onclick="CloseMobileMenu">Proyectos</NavLink>
+            <NavLink class="navlink" href="/contacto" @onclick="CloseMobileMenu">Contacto</NavLink>
+        </nav>
+
+        <!-- 
+        <div class="topnav-actions">
+            <button class="iconbtn" type="button" title="@themeLabel" aria-label="@themeLabel" @onclick="ToggleTheme">
+                <span class="theme-icon @(isDark ? "moon" : "sun")" aria-hidden="true"></span>
+            </button>
+        -->
+        <div>
+            <button class="menubtn" type="button" @onclick="ToggleMobileMenu" aria-expanded="@isMobileOpen" aria-label="Menú de navegación">
+                <span class="hamburger @(isMobileOpen ? "open" : "")" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="mobile-menu @(isMobileOpen ? "open" : "")" @onclick:stopPropagation="true">
+        <div class="container mobile-menu-inner">
+            <NavLink class="navlink mobile-link" href="/" Match="NavLinkMatch.All" @onclick="CloseMobileMenu">Inicio</NavLink>
+            <NavLink class="navlink mobile-link" href="/sobre-mi" @onclick="CloseMobileMenu">Sobre mí</NavLink>
+            <NavLink class="navlink mobile-link" href="/proyectos" @onclick="CloseMobileMenu">Proyectos</NavLink>
+            <NavLink class="navlink mobile-link" href="/contacto" @onclick="CloseMobileMenu">Contacto</NavLink>
+        </div>
+    </div>
+</header>
+
+@code {
+    private bool isMobileOpen;
+    private bool isDark = true;
+    private string themeLabel => isDark ? "Cambiar a modo claro" : "Cambiar a modo oscuro";
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            isDark = await JS.InvokeAsync<bool>("portfolioTheme.isDark");
+            StateHasChanged();
+        }
+    }
+
+    private async Task ToggleTheme()
+    {
+        await JS.InvokeVoidAsync("portfolioTheme.toggle");
+        isDark = await JS.InvokeAsync<bool>("portfolioTheme.isDark");
+    }
+
+    private void ToggleMobileMenu() => isMobileOpen = !isMobileOpen;
+
+    private void CloseMobileMenu() => isMobileOpen = false;
+}

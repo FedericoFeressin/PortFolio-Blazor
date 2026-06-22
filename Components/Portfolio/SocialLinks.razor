@@ -1,0 +1,44 @@
+@using PortFolio_Blazor.Models
+
+<div class="social @VariantClass">
+    @if (!string.IsNullOrWhiteSpace(Profile.Social.LinkedIn))
+    {
+        <a class="social-link" href="@Profile.Social.LinkedIn" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+            <span class="social-icon"><i class="bi bi-linkedin"></i></span>
+            <span>LinkedIn</span>
+        </a>
+    }
+    @if (!string.IsNullOrWhiteSpace(Profile.Social.GitHub))
+    {
+        <a class="social-link" href="@Profile.Social.GitHub" target="_blank" rel="noopener noreferrer" title="GitHub">
+            <span class="social-icon"><i class="bi bi-github"></i></span>
+            <span>GitHub</span>
+        </a>
+    }
+    @if (!string.IsNullOrWhiteSpace(Profile.Social.Twitter))
+    {
+        <a class="social-link" href="@Profile.Social.Twitter" target="_blank" rel="noopener noreferrer" title="Twitter / X">
+            <span class="social-icon"><i class="bi bi-twitter"></i></span>
+            <span>Twitter</span>
+        </a>
+    }
+    @if (!string.IsNullOrWhiteSpace(Profile.Email))
+    {
+        <a class="social-link" href="mailto:@Profile.Email" title="Email">
+            <span class="social-icon"><i class="bi bi-envelope"></i></span>
+            <span>Email</span>
+        </a>
+    }
+</div>
+
+@code {
+    [Parameter, EditorRequired] public SiteProfile Profile { get; set; } = default!;
+    [Parameter] public string Variant { get; set; } = "inline";
+
+    private string VariantClass => Variant switch
+    {
+        "cards" => "social-cards",
+        "footer" => "social-footer",
+        _ => "social-inline"
+    };
+}

@@ -1,0 +1,14 @@
+<section class="page-banner">
+    <div class="container page-banner-inner reveal">
+        <h1>@Title</h1>
+        @if (!string.IsNullOrWhiteSpace(Subtitle))
+        {
+            <p>@Subtitle</p>
+        }
+    </div>
+</section>
+
+@code {
+    [Parameter] public string Title { get; set; } = "";
+    [Parameter] public string? Subtitle { get; set; }
+}

@@ -1,0 +1,34 @@
+@using PortFolio_Blazor.Models
+@rendermode InteractiveServer
+
+<div class="contact-layout">
+    <div class="card card-soft contact-social-card">
+        <h2 class="card-title">Redes sociales</h2>
+        <p class="text-muted">Conectá conmigo en estas plataformas o escribime directo.</p>
+        <SocialLinks Profile="Profile" Variant="cards" />
+
+        <div class="divider"></div>
+
+        <h3 class="card-title">Información</h3>
+        <ul class="info-list">
+            <li>
+                <span class="info-label">Email: </span>
+                <a href="mailto:@Profile.Email" class="link-accent">@Profile.Email</a>
+            </li>
+            <li>
+                <span class="info-label">Ubicación: </span>
+                <span class="text-light">@Profile.Location</span>
+            </li>
+            <li>
+                <span class="info-label">Modalidad: </span>
+                <span class="text-light">Freelance / Full-time</span>
+            </li>
+        </ul>
+    </div>
+
+    <ContactForm />
+</div>
+
+@code {
+    [Parameter, EditorRequired] public SiteProfile Profile { get; set; } = default!;
+}

@@ -1,0 +1,91 @@
+@page "/sobre-mi"
+@inject ProfileService ProfileService
+
+<PageTitle>Sobre mí — Portfolio</PageTitle>
+
+<div class="page">
+    <PageBanner Title="Sobre mí" Subtitle="Perfil profesional, experiencia y stack técnico en detalle." />
+
+    @if (profile is null)
+    {
+        <div class="container page-loading">Cargando...</div>
+    }
+    else
+    {
+        <section class="section section-tight">
+            <div class="container about-layout">
+                <div class="card card-soft about-main reveal">
+                    <h2 class="card-title">Quién soy</h2>
+                    <p class="text-secondary lead">@profile.LongBio</p>
+
+                    <div class="meta-row">
+                        <div class="meta-item">
+                            <span class="meta-label">Ubicación</span>
+                            <span class="text-secondary">@profile.Location</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Estado</span>
+                            <span class="text-secondary">@profile.Availability</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Email</span>
+                            <a href="mailto:@profile.Email" class="link-accent">@profile.Email</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-side reveal delay-1">
+                    @foreach (var group in profile.SkillGroups)
+                    {
+                        <div class="card card-soft skill-card">
+                            <div class="skill-top">
+                                <h3 class="card-title">@group.Category</h3>
+                                <span class="pill">@group.Label</span>
+                            </div>
+                            <div class="bar"><div class="bar-fill" style="width: @(group.Level)%"></div></div>
+                            <div class="chips">
+                                @foreach (var tech in group.Items)
+                                {
+                                    <span class="chip">@tech</span>
+                                }
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-tight">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Experiencia</h2>
+                    <p>Trayectoria y proyectos relevantes.</p>
+                </div>
+
+                <div class="timeline">
+                    @foreach (var exp in profile.Experience)
+                    {
+                        <article class="card card-soft timeline-item reveal">
+                            <time class="timeline-period">@exp.Period</time>
+                            <h3 class="timeline-title text-primary">@exp.Title</h3>
+                            <p class="timeline-company">@exp.Company</p>
+                            <p class="text-secondary">@exp.Description</p>
+                        </article>
+                    }
+                </div>
+
+                <div class="cta-bar">
+                    <NavLink class="btn btn-primary btn-modern" href="/proyectos">Ver mis proyectos</NavLink>
+                    <NavLink class="btn btn-ghost btn-modern" href="/contacto">Contactarme</NavLink>
+                </div>
+            </div>
+        </section>
+    }
+</div>
+
+@code {
+    private SiteProfile? profile;
+
+    protected override async Task OnInitializedAsync()
+        => profile = await ProfileService.GetProfileAsync();
+}

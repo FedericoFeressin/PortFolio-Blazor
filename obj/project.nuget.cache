@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "o8isthYCKEQ=",
+  "success": true,
+  "projectFilePath": "D:\\Pen\\Cosas de 3ro A\\EDI-Web\\PortFolio-Blazor\\PortFolio-Blazor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fedef\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.8\\microsoft.aspnetcore.app.internal.assets.10.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,28 @@
+@page "/contacto"
+@inject ProfileService ProfileService
+
+<PageTitle>Contacto — Portfolio</PageTitle>
+
+<div class="page">
+    <PageBanner Title="Contacto" Subtitle="Escribime o conectá por redes sociales." />
+
+    @if (profile is null)
+    {
+        <div class="container page-loading">Cargando...</div>
+    }
+    else
+    {
+        <section class="section section-tight">
+            <div class="container">
+                <ContactSection Profile="profile" />
+            </div>
+        </section>
+    }
+</div>
+
+@code {
+    private SiteProfile? profile;
+
+    protected override async Task OnInitializedAsync()
+        => profile = await ProfileService.GetProfileAsync();
+}

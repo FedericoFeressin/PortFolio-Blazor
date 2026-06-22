@@ -1,0 +1,266 @@
+D:\Proyectos EDI\PortFolio-Blazor\bin\Debug\net10.0\appsettings.Development.json
+D:\Proyectos EDI\PortFolio-Blazor\bin\Debug\net10.0\appsettings.json
+D:\Proyectos EDI\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.staticwebassets.runtime.json
+D:\Proyectos EDI\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.staticwebassets.endpoints.json
+D:\Proyectos EDI\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.exe
+D:\Proyectos EDI\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.deps.json
+D:\Proyectos EDI\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.runtimeconfig.json
+D:\Proyectos EDI\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.dll
+D:\Proyectos EDI\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.pdb
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\EmbeddedAttribute.cs
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\ValidatableTypeAttribute.cs
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.AssemblyInfoInputs.cache
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.AssemblyInfo.cs
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.csproj.CoreCompileInputs.cache
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.MvcApplicationPartsAssemblyInfo.cache
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\scopedcss\Components\Layout\ReconnectModal.razor.rz.scp.css
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\scopedcss\bundle\PortFolio-Blazor.styles.css
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\scopedcss\projectbundle\PortFolio-Blazor.bundle.scp.css
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\0hk1faoks9-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\fjlwjcdzr9-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\zx8gomi597-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\jqtbmixzf1-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\kvvcwq7ctb-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\cktq4tsjdo-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\1b6jr6cnsx-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\ybjoz7jo21-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\sxry68zzna-{0}-ub07r2b239-ub07r2b239.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\935fhruycc-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\4232b8yi1q-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\8mp05dls7z-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\4h451bz3wj-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\ubf3gri76e-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\5ed7gnk1xh-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\c6u3nmskiy-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\brk6rhhyij-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\cktw23mkv3-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\nsa674kdoz-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\7fhckhg5o1-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\bm210riz1o-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\ugr18bc5ls-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\eoz0aniyse-{0}-06098lyss8-06098lyss8.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\w2yb5htwvv-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\1frubu81xu-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\afrt9iluak-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\ehg85xoo8r-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\sknzfo6oy0-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\epcbocjqhx-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\m9r5kn97ns-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\q8vcwbo0s4-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\4l58tovorg-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\b17sq64bs7-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\zzwahrphmq-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\l6ac4yxyn1-{0}-493y06b0oq-493y06b0oq.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\g4fukezyv9-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\7qtz93n3yt-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\1q29dmw4zj-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\9xs315v62q-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\03v14a0lux-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\46wlne9k5h-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\52uk5x7s0v-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\hrps4va2ae-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\42bwgmwjtc-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\muh0jo2yq5-{0}-abdmv1u4y3-abdmv1u4y3.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\yc16gg71ur-{0}-ej96puwv3k-ej96puwv3k.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\7g7dnt9q7k-{0}-cj5793hgrt-cj5793hgrt.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\0zugp8gqr1-{0}-43xj9cogk2-43xj9cogk2.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\kxxdfsnpag-{0}-43xj9cogk2-43xj9cogk2.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\staticwebassets.build.json
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\staticwebassets.development.json
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\swae.build.ex.cache
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.dll
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\refint\PortFolio-Blazor.dll
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.pdb
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.genruntimeconfig.cache
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\ref\PortFolio-Blazor.dll
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\njbgvobrqk-{0}-w98t4puwkg-w98t4puwkg.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\eon39uz7c5-{0}-0wvqscw5w4-0wvqscw5w4.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\e6g3cxjgjq-{0}-298xanfxvk-298xanfxvk.gz
+D:\Proyectos EDI\PortFolio-Blazor\obj\Debug\net10.0\compressed\brwxa9xkgg-{0}-8gsuvvweem-8gsuvvweem.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\appsettings.Development.json
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\appsettings.json
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.staticwebassets.runtime.json
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.staticwebassets.endpoints.json
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.exe
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.deps.json
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.runtimeconfig.json
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.dll
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.pdb
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\EmbeddedAttribute.cs
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\ValidatableTypeAttribute.cs
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.AssemblyInfoInputs.cache
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.AssemblyInfo.cs
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.csproj.CoreCompileInputs.cache
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.MvcApplicationPartsAssemblyInfo.cache
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\scopedcss\Components\Layout\ReconnectModal.razor.rz.scp.css
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\scopedcss\bundle\PortFolio-Blazor.styles.css
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\scopedcss\projectbundle\PortFolio-Blazor.bundle.scp.css
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\0hk1faoks9-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\fjlwjcdzr9-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\zx8gomi597-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\jqtbmixzf1-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\kvvcwq7ctb-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\cktq4tsjdo-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\1b6jr6cnsx-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\ybjoz7jo21-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\sxry68zzna-{0}-ub07r2b239-ub07r2b239.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\935fhruycc-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\4232b8yi1q-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\8mp05dls7z-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\4h451bz3wj-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\ubf3gri76e-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\5ed7gnk1xh-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\c6u3nmskiy-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\brk6rhhyij-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\cktw23mkv3-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\nsa674kdoz-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\7fhckhg5o1-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\bm210riz1o-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\ugr18bc5ls-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\eoz0aniyse-{0}-06098lyss8-06098lyss8.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\w2yb5htwvv-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\1frubu81xu-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\afrt9iluak-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\ehg85xoo8r-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\sknzfo6oy0-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\epcbocjqhx-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\m9r5kn97ns-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\q8vcwbo0s4-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\4l58tovorg-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\b17sq64bs7-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\zzwahrphmq-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\l6ac4yxyn1-{0}-493y06b0oq-493y06b0oq.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\g4fukezyv9-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\7qtz93n3yt-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\1q29dmw4zj-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\9xs315v62q-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\03v14a0lux-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\46wlne9k5h-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\52uk5x7s0v-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\hrps4va2ae-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\42bwgmwjtc-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\muh0jo2yq5-{0}-abdmv1u4y3-abdmv1u4y3.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\yc16gg71ur-{0}-ej96puwv3k-ej96puwv3k.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\7g7dnt9q7k-{0}-cj5793hgrt-cj5793hgrt.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\0zugp8gqr1-{0}-43xj9cogk2-43xj9cogk2.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\kxxdfsnpag-{0}-43xj9cogk2-43xj9cogk2.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\staticwebassets.build.json
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\staticwebassets.development.json
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\swae.build.ex.cache
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.dll
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\refint\PortFolio-Blazor.dll
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.pdb
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.genruntimeconfig.cache
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\ref\PortFolio-Blazor.dll
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\brwxa9xkgg-{0}-fr2w5j4gah-fr2w5j4gah.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\e6g3cxjgjq-{0}-65wjf6pvwv-65wjf6pvwv.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\njbgvobrqk-{0}-6jp3l5wi6z-6jp3l5wi6z.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\appsettings.Development.json
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\appsettings.json
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.staticwebassets.endpoints.json
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.staticwebassets.runtime.json
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.exe
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.deps.json
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.runtimeconfig.json
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.dll
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\PortFolio-Blazor.pdb
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\EmbeddedAttribute.cs
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\ValidatableTypeAttribute.cs
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\rpswa.dswa.cache.json
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.GeneratedMSBuildEditorConfig.editorconfig
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.AssemblyInfoInputs.cache
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.AssemblyInfo.cs
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.csproj.CoreCompileInputs.cache
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.MvcApplicationPartsAssemblyInfo.cache
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\rjimswa.dswa.cache.json
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\scopedcss\Components\Layout\ReconnectModal.razor.rz.scp.css
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\scopedcss\bundle\PortFolio-Blazor.styles.css
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\scopedcss\projectbundle\PortFolio-Blazor.bundle.scp.css
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\brwxa9xkgg-{0}-fr2w5j4gah-fr2w5j4gah.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\e6g3cxjgjq-{0}-65wjf6pvwv-65wjf6pvwv.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\0hk1faoks9-{0}-bqjiyaj88i-bqjiyaj88i.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\fjlwjcdzr9-{0}-c2jlpeoesf-c2jlpeoesf.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\zx8gomi597-{0}-erw9l3u2r3-erw9l3u2r3.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\jqtbmixzf1-{0}-aexeepp0ev-aexeepp0ev.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\kvvcwq7ctb-{0}-d7shbmvgxk-d7shbmvgxk.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\cktq4tsjdo-{0}-ausgxo2sd3-ausgxo2sd3.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\1b6jr6cnsx-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\ybjoz7jo21-{0}-cosvhxvwiu-cosvhxvwiu.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\sxry68zzna-{0}-ub07r2b239-ub07r2b239.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\935fhruycc-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\4232b8yi1q-{0}-b7pk76d08c-b7pk76d08c.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\8mp05dls7z-{0}-fsbi9cje9m-fsbi9cje9m.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\4h451bz3wj-{0}-rzd6atqjts-rzd6atqjts.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\ubf3gri76e-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\5ed7gnk1xh-{0}-dxx9fxp4il-dxx9fxp4il.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\c6u3nmskiy-{0}-jd9uben2k1-jd9uben2k1.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\brk6rhhyij-{0}-khv3u5hwcm-khv3u5hwcm.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\cktw23mkv3-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\nsa674kdoz-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\7fhckhg5o1-{0}-c2oey78nd0-c2oey78nd0.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\bm210riz1o-{0}-tdbxkamptv-tdbxkamptv.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\ugr18bc5ls-{0}-j5mq2jizvt-j5mq2jizvt.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\eoz0aniyse-{0}-06098lyss8-06098lyss8.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\w2yb5htwvv-{0}-nvvlpmu67g-nvvlpmu67g.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\1frubu81xu-{0}-s35ty4nyc5-s35ty4nyc5.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\afrt9iluak-{0}-pj5nd1wqec-pj5nd1wqec.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\ehg85xoo8r-{0}-46ein0sx1k-46ein0sx1k.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\sknzfo6oy0-{0}-v0zj4ognzu-v0zj4ognzu.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\epcbocjqhx-{0}-37tfw0ft22-37tfw0ft22.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\m9r5kn97ns-{0}-hrwsygsryq-hrwsygsryq.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\q8vcwbo0s4-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\4l58tovorg-{0}-ft3s53vfgj-ft3s53vfgj.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\b17sq64bs7-{0}-6cfz1n2cew-6cfz1n2cew.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\zzwahrphmq-{0}-6pdc2jztkx-6pdc2jztkx.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\l6ac4yxyn1-{0}-493y06b0oq-493y06b0oq.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\g4fukezyv9-{0}-iovd86k7lj-iovd86k7lj.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\7qtz93n3yt-{0}-vr1egmr9el-vr1egmr9el.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\1q29dmw4zj-{0}-kbrnm935zg-kbrnm935zg.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\9xs315v62q-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\03v14a0lux-{0}-y7v9cxd14o-y7v9cxd14o.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\46wlne9k5h-{0}-notf2xhcfb-notf2xhcfb.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\52uk5x7s0v-{0}-h1s4sie4z3-h1s4sie4z3.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\hrps4va2ae-{0}-63fj8s7r0e-63fj8s7r0e.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\42bwgmwjtc-{0}-0j3bgjxly4-0j3bgjxly4.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\njbgvobrqk-{0}-6jp3l5wi6z-6jp3l5wi6z.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\muh0jo2yq5-{0}-abdmv1u4y3-abdmv1u4y3.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\yc16gg71ur-{0}-ej96puwv3k-ej96puwv3k.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\7g7dnt9q7k-{0}-cj5793hgrt-cj5793hgrt.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\0zugp8gqr1-{0}-43xj9cogk2-43xj9cogk2.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\kxxdfsnpag-{0}-43xj9cogk2-43xj9cogk2.gz
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\staticwebassets.build.json
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\staticwebassets.build.json.cache
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\staticwebassets.development.json
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\swae.build.ex.cache
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.dll
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\refint\PortFolio-Blazor.dll
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.pdb
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\PortFolio-Blazor.genruntimeconfig.cache
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\ref\PortFolio-Blazor.dll
+F:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\eon39uz7c5-{0}-1itrf6fpk9-1itrf6fpk9.gz
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\package-lock.json
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\bin\Debug\net10.0\package.json
+D:\Pen\Cosas de 3ro A\EDI-Web\PortFolio-Blazor\obj\Debug\net10.0\compressed\eon39uz7c5-{0}-5wgl2015ou-5wgl2015ou.gz

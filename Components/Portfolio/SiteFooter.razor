@@ -1,0 +1,59 @@
+@inject ProfileService ProfileService
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col footer-about">
+                <NavLink class="brand footer-brand" href="/">
+                    <span class="brand-dot"></span>
+                    <span>@(profile?.Name ?? "Portfolio")</span>
+                </NavLink>
+                <p class="footer-tagline text-secondary">
+                    @(profile?.Tagline ?? "Desarrollador web — Portfolio profesional")
+                </p>
+                @if (profile is not null)
+                {
+                    <a class="footer-email link-accent" href="mailto:@profile.Email">@profile.Email</a>
+                }
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-heading">Navegación</h4>
+                <nav class="footer-nav" aria-label="Enlaces del sitio">
+                    <NavLink class="footer-link" href="/" Match="NavLinkMatch.All">Inicio</NavLink>
+                    <NavLink class="footer-link" href="/sobre-mi">Sobre mí</NavLink>
+                    <NavLink class="footer-link" href="/proyectos">Proyectos</NavLink>
+                    <NavLink class="footer-link" href="/contacto">Contacto</NavLink>
+                </nav>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-heading">Información</h4>
+                <ul class="footer-info">
+                    <li><span class="text-secondary">Ubicación:</span> @(profile?.Location ?? "Remoto")</li>
+                    <li><span class="text-secondary">Estado:</span> @(profile?.Availability ?? "Disponible")</li>
+                </ul>
+            </div>
+
+            @if (profile is not null)
+            {
+                <div class="footer-col">
+                    <h4 class="footer-heading">Redes</h4>
+                    <SocialLinks Profile="profile" Variant="footer" />
+                </div>
+            }
+        </div>
+
+        <div class="footer-bottom">
+            <span class="text-secondary">© @DateTime.Now.Year @(profile?.Name ?? "Portfolio"). Todos los derechos reservados.</span>
+            <span class="footer-tech text-secondary">Desarrollado con ASP.NET Blazor</span>
+        </div>
+    </div>
+</footer>
+
+@code {
+    private SiteProfile? profile;
+
+    protected override async Task OnInitializedAsync()
+        => profile = await ProfileService.GetProfileAsync();
+}
