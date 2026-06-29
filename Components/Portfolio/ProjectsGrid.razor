@@ -1,6 +1,7 @@
 @using PortFolio_Blazor.Models
 @inject PortFolio_Blazor.Services.ProjectsService ProjectsService
 @inject IJSRuntime JS
+@rendermode InteractiveServer
 @implements IAsyncDisposable
 
 <div class="projects">
@@ -43,13 +44,6 @@
             </p>
         }
 
-        @if (!string.IsNullOrWhiteSpace(mensajeCopia))
-        {
-            <div class="copy-toast" role="status" aria-live="polite">
-                <i class="bi bi-check-circle" aria-hidden="true"></i> @mensajeCopia
-            </div>
-        }
-
         <div class="grid grid-3">
             @foreach (var p in proyectosFiltrados)
             {
@@ -65,8 +59,6 @@
 
     private bool isLoading = true;
     private List<Project> projects = new();
-    private string mensajeCopia = "";
-
     // Módulo ES6 importado dinámicamente (Clase 13)
     private IJSObjectReference? _modulo;
 
@@ -89,27 +81,18 @@
             _modulo = await JS.InvokeAsync<IJSObjectReference>("import", "./js/portfolio.js");
     }
 
-    // Maneja el EventCallback de ProjectCard: copia la URL al portapapeles via módulo ES6
-    private async Task CopiarUrlAsync(string url)
+    private async Task<bool> CopiarUrlAsync(string url)
     {
-        if (_modulo is null) return;
+        if (_modulo is null) return false;
 
         try
         {
             await _modulo.InvokeVoidAsync("copiarAlPortapapeles", url);
-            mensajeCopia = "¡Enlace copiado al portapapeles!";
-            StateHasChanged();
-            await Task.Delay(2500);
-            mensajeCopia = "";
-            StateHasChanged();
+            return true;
         }
         catch
         {
-            mensajeCopia = "No se pudo copiar. Intentá manualmente.";
-            StateHasChanged();
-            await Task.Delay(2500);
-            mensajeCopia = "";
-            StateHasChanged();
+            return false;
         }
     }
 

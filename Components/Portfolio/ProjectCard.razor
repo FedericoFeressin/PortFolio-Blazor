@@ -42,7 +42,7 @@
             @if (!string.IsNullOrWhiteSpace(Project.RepoUrl))
             {
                 <button class="btn btn-ghost btn-modern btn-sm" type="button" title="Copiar enlace al repositorio"
-                        @onclick="() => OnCopiarUrl.InvokeAsync(Project.RepoUrl)">
+                        @onclick="CopiarAsync">
                     <i class="bi bi-clipboard" aria-hidden="true"></i>
                     @(copiado ? "¡Copiado!" : "Copiar link")
                 </button>
@@ -54,13 +54,20 @@
 @code {
     [Parameter, EditorRequired] public Project Project { get; set; } = default!;
 
-    // EventCallback: notifica al padre (ProjectsGrid) que se pidió copiar la URL
-    [Parameter] public EventCallback<string> OnCopiarUrl { get; set; }
+    [Parameter] public Func<string, Task<bool>>? OnCopiarUrl { get; set; }
 
     private bool copiado;
 
-    // El padre puede invocar este método tras copiar con éxito
-    public async Task MarcarCopiado()
+    private async Task CopiarAsync()
+    {
+        if (OnCopiarUrl is null || string.IsNullOrWhiteSpace(Project.RepoUrl))
+            return;
+
+        if (await OnCopiarUrl(Project.RepoUrl))
+            await MarcarCopiado();
+    }
+
+    private async Task MarcarCopiado()
     {
         copiado = true;
         StateHasChanged();
