@@ -1,0 +1,73 @@
+/* CSS Isolation - ContactForm.razor.css */
+/* Estos estilos solo aplican al componente ContactForm (Clase 10) */
+
+.contact-form-card[b-ygn6gu2jmj] {
+    max-width: 600px;
+    width: 100%;
+}
+
+.form[b-ygn6gu2jmj] {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.field[b-ygn6gu2jmj] {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.field label[b-ygn6gu2jmj] {
+    font-size: .875rem;
+    font-weight: 500;
+    color: var(--text, #f4f4f8);
+}
+
+.input[b-ygn6gu2jmj] {
+    background: var(--surface, rgba(255,255,255,0.045));
+    border: 1px solid var(--border, rgba(255,255,255,0.09));
+    border-radius: var(--radius-sm, 12px);
+    color: var(--text, #f4f4f8);
+    font-family: inherit;
+    font-size: .9375rem;
+    padding: .65rem 1rem;
+    transition: border-color 180ms;
+    width: 100%;
+}
+
+.input:focus[b-ygn6gu2jmj] {
+    border-color: var(--primary, #818cf8);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(129,140,248,.18);
+}
+
+.textarea[b-ygn6gu2jmj] {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.form-actions[b-ygn6gu2jmj] {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.form-status[b-ygn6gu2jmj] {
+    font-size: .875rem;
+    border-radius: 6px;
+    padding: .3rem .75rem;
+}
+
+.form-status.is-pending[b-ygn6gu2jmj] { color: var(--muted, rgba(255,255,255,0.845)); }
+.form-status.is-success[b-ygn6gu2jmj] { color: #4ade80; }
+.form-status.is-error[b-ygn6gu2jmj]   { color: #f87171; }
+
+.validation-summary[b-ygn6gu2jmj],
+.validation-message[b-ygn6gu2jmj] {
+    color: #f87171;
+    font-size: .8125rem;
+    margin: 0;
+}

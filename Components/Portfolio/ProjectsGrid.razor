@@ -1,5 +1,7 @@
 @using PortFolio_Blazor.Models
 @inject PortFolio_Blazor.Services.ProjectsService ProjectsService
+@inject IJSRuntime JS
+@implements IAsyncDisposable
 
 <div class="projects">
     @if (isLoading)
@@ -16,31 +18,105 @@
             }
         </div>
     }
-    else if (projects.Count == 0)
+    else if (proyectosFiltrados.Count == 0)
     {
         <div class="card card-soft empty">
-            <h3 class="card-title">Todavía no hay proyectos</h3>
+            <h3 class="card-title">
+                @(string.IsNullOrWhiteSpace(Filtro)
+                    ? "Todavía no hay proyectos"
+                    : $"No hay proyectos con la tecnología \"{Filtro}\"")
+            </h3>
             <p class="text-muted">Agregá elementos en <code>wwwroot/data/projects.json</code>.</p>
+            @if (!string.IsNullOrWhiteSpace(Filtro))
+            {
+                <NavLink class="btn btn-ghost btn-modern" href="/proyectos">Ver todos</NavLink>
+            }
         </div>
     }
     else
     {
+        @if (!string.IsNullOrWhiteSpace(Filtro))
+        {
+            <p class="text-secondary" style="margin-bottom:1rem">
+                Mostrando proyectos con: <span class="chip">@Filtro</span>
+                <NavLink href="/proyectos" class="link-accent" style="margin-left:.5rem">Ver todos</NavLink>
+            </p>
+        }
+
+        @if (!string.IsNullOrWhiteSpace(mensajeCopia))
+        {
+            <div class="copy-toast" role="status" aria-live="polite">
+                <i class="bi bi-check-circle" aria-hidden="true"></i> @mensajeCopia
+            </div>
+        }
+
         <div class="grid grid-3">
-            @foreach (var p in projects)
+            @foreach (var p in proyectosFiltrados)
             {
-                <ProjectCard Project="p" />
+                <ProjectCard Project="p" OnCopiarUrl="CopiarUrlAsync" />
             }
         </div>
     }
 </div>
 
 @code {
+    // Parámetro de ruta pasado desde Proyectos.razor para filtrar por tecnología
+    [Parameter] public string? Filtro { get; set; }
+
     private bool isLoading = true;
     private List<Project> projects = new();
+    private string mensajeCopia = "";
+
+    // Módulo ES6 importado dinámicamente (Clase 13)
+    private IJSObjectReference? _modulo;
+
+    private List<Project> proyectosFiltrados =>
+        string.IsNullOrWhiteSpace(Filtro)
+            ? projects
+            : projects.Where(p =>
+                p.Technologies.Any(t => t.Contains(Filtro, StringComparison.OrdinalIgnoreCase))
+              ).ToList();
 
     protected override async Task OnInitializedAsync()
     {
         projects = await ProjectsService.GetProjectsAsync();
         isLoading = false;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+            _modulo = await JS.InvokeAsync<IJSObjectReference>("import", "./js/portfolio.js");
+    }
+
+    // Maneja el EventCallback de ProjectCard: copia la URL al portapapeles via módulo ES6
+    private async Task CopiarUrlAsync(string url)
+    {
+        if (_modulo is null) return;
+
+        try
+        {
+            await _modulo.InvokeVoidAsync("copiarAlPortapapeles", url);
+            mensajeCopia = "¡Enlace copiado al portapapeles!";
+            StateHasChanged();
+            await Task.Delay(2500);
+            mensajeCopia = "";
+            StateHasChanged();
+        }
+        catch
+        {
+            mensajeCopia = "No se pudo copiar. Intentá manualmente.";
+            StateHasChanged();
+            await Task.Delay(2500);
+            mensajeCopia = "";
+            StateHasChanged();
+        }
+    }
+
+    // IAsyncDisposable: libera el módulo JS (Clase 13)
+    public async ValueTask DisposeAsync()
+    {
+        if (_modulo is not null)
+            await _modulo.DisposeAsync();
     }
 }

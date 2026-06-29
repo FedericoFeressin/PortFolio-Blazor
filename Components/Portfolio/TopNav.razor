@@ -16,14 +16,17 @@
             <NavLink class="navlink" href="/contacto" @onclick="CloseMobileMenu">Contacto</NavLink>
         </nav>
 
-        <!-- 
         <div class="topnav-actions">
-            <button class="iconbtn" type="button" title="@themeLabel" aria-label="@themeLabel" @onclick="ToggleTheme">
-                <span class="theme-icon @(isDark ? "moon" : "sun")" aria-hidden="true"></span>
+            <button class="iconbtn"
+                    type="button"
+                    title="@themeLabel"
+                    aria-label="@themeLabel"
+                    @onclick="HandleToggleTema">
+                <span class="theme-icon @(Tema?.EsModoOscuro == true ? "moon" : "sun")" aria-hidden="true"></span>
             </button>
-        -->
-        <div>
-            <button class="menubtn" type="button" @onclick="ToggleMobileMenu" aria-expanded="@isMobileOpen" aria-label="Menú de navegación">
+
+            <button class="menubtn" type="button" @onclick="ToggleMobileMenu"
+                    aria-expanded="@isMobileOpen" aria-label="Menú de navegación">
                 <span class="hamburger @(isMobileOpen ? "open" : "")" aria-hidden="true"></span>
             </button>
         </div>
@@ -40,26 +43,21 @@
 </header>
 
 @code {
+    // CascadingParameter: recibe el tema del MainLayout sin pasarlo nivel a nivel
+    [CascadingParameter] public TemaApp? Tema { get; set; }
+
+    // EventCallback: comunica al padre (MainLayout) que el usuario quiere cambiar el tema
+    [Parameter] public EventCallback OnToggleTema { get; set; }
+
     private bool isMobileOpen;
-    private bool isDark = true;
-    private string themeLabel => isDark ? "Cambiar a modo claro" : "Cambiar a modo oscuro";
 
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender)
-        {
-            isDark = await JS.InvokeAsync<bool>("portfolioTheme.isDark");
-            StateHasChanged();
-        }
-    }
+    private string themeLabel => Tema?.EsModoOscuro == true
+        ? "Cambiar a modo claro"
+        : "Cambiar a modo oscuro";
 
-    private async Task ToggleTheme()
-    {
-        await JS.InvokeVoidAsync("portfolioTheme.toggle");
-        isDark = await JS.InvokeAsync<bool>("portfolioTheme.isDark");
-    }
+    private async Task HandleToggleTema()
+        => await OnToggleTema.InvokeAsync();
 
     private void ToggleMobileMenu() => isMobileOpen = !isMobileOpen;
-
     private void CloseMobileMenu() => isMobileOpen = false;
 }

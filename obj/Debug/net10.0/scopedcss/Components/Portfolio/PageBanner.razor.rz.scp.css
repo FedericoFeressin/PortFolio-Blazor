@@ -1,0 +1,31 @@
+/* CSS Isolation - PageBanner.razor.css */
+/* Estos estilos solo aplican al componente PageBanner (Clase 10) */
+
+.page-banner[b-tynp3a3o2d] {
+    padding: 3rem 0 2rem;
+    border-bottom: 1px solid var(--border, rgba(255,255,255,0.09));
+    margin-bottom: 0;
+}
+
+.page-banner-inner[b-tynp3a3o2d] {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.page-banner h1[b-tynp3a3o2d] {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    margin: 0;
+    background: linear-gradient(135deg, var(--primary, #818cf8), var(--primary-2, #f472b6));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.page-banner p[b-tynp3a3o2d] {
+    color: var(--muted, rgba(255,255,255,0.845));
+    font-size: 1.0625rem;
+    margin: 0;
+    max-width: 520px;
+}

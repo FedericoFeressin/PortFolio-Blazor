@@ -1,0 +1,73 @@
+/* CSS Isolation - ContactForm.razor.css */
+/* Estos estilos solo aplican al componente ContactForm (Clase 10) */
+
+.contact-form-card {
+    max-width: 600px;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.field label {
+    font-size: .875rem;
+    font-weight: 500;
+    color: var(--text, #f4f4f8);
+}
+
+.input {
+    background: var(--surface, rgba(255,255,255,0.045));
+    border: 1px solid var(--border, rgba(255,255,255,0.09));
+    border-radius: var(--radius-sm, 12px);
+    color: var(--text, #f4f4f8);
+    font-family: inherit;
+    font-size: .9375rem;
+    padding: .65rem 1rem;
+    transition: border-color 180ms;
+    width: 100%;
+}
+
+.input:focus {
+    border-color: var(--primary, #818cf8);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(129,140,248,.18);
+}
+
+.textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.form-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.form-status {
+    font-size: .875rem;
+    border-radius: 6px;
+    padding: .3rem .75rem;
+}
+
+.form-status.is-pending { color: var(--muted, rgba(255,255,255,0.845)); }
+.form-status.is-success { color: #4ade80; }
+.form-status.is-error   { color: #f87171; }
+
+.validation-summary,
+.validation-message {
+    color: #f87171;
+    font-size: .8125rem;
+    margin: 0;
+}

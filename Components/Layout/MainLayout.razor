@@ -1,21 +1,64 @@
-﻿@inherits LayoutComponentBase
+@inherits LayoutComponentBase
+@inject IJSRuntime JS
+@implements IAsyncDisposable
 
-<div class="app-shell">
-    <div class="app-bg" aria-hidden="true"></div>
+<CascadingValue Value="tema">
+    <div class="app-shell">
+        <div class="app-bg" aria-hidden="true"></div>
 
-    <TopNav />
+        <TopNav OnToggleTema="ToggleTemaAsync" />
 
-    <main class="app-main">
-        <div class="app-content">
-            @Body
-        </div>
-    </main>
+        <main class="app-main">
+            <div class="app-content">
+                @Body
+            </div>
+        </main>
 
-    <SiteFooter />
-</div>
+        <SiteFooter />
+    </div>
+</CascadingValue>
 
 <div id="blazor-error-ui" data-nosnippet>
     Se produjo un error.
     <a href="/" class="reload">Recargar</a>
     <span class="dismiss">✕</span>
 </div>
+
+@code {
+    private TemaApp tema = new();
+    private IJSObjectReference? _modulo;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // Importa el módulo ES6 dinámicamente (patrón Clase 13)
+            _modulo = await JS.InvokeAsync<IJSObjectReference>("import", "./js/portfolio.js");
+
+            // Lee el tema guardado en localStorage via módulo
+            var temaGuardado = await _modulo.InvokeAsync<string?>("recuperarDeLocalStorage", "portfolio.theme");
+            tema.EsModoOscuro = temaGuardado != "light";
+            StateHasChanged();
+        }
+    }
+
+    private async Task ToggleTemaAsync()
+    {
+        tema.EsModoOscuro = !tema.EsModoOscuro;
+        var nuevoTema = tema.EsModoOscuro ? "dark" : "light";
+
+        if (_modulo is not null)
+            await _modulo.InvokeVoidAsync("guardarEnLocalStorage", "portfolio.theme", nuevoTema);
+
+        // Sincroniza el atributo data-theme del HTML (lo lee theme.js también)
+        await JS.InvokeVoidAsync("portfolioTheme.apply", nuevoTema);
+        StateHasChanged();
+    }
+
+    // IAsyncDisposable: libera el módulo JS correctamente (Clase 13)
+    public async ValueTask DisposeAsync()
+    {
+        if (_modulo is not null)
+            await _modulo.DisposeAsync();
+    }
+}

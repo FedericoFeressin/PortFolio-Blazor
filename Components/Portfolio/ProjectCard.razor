@@ -45,12 +45,37 @@
                     Ver repositorio
                 </a>
             }
+            @if (!string.IsNullOrWhiteSpace(Project.RepoUrl))
+            {
+                <button class="btn btn-ghost btn-modern btn-sm"
+                        type="button"
+                        title="Copiar enlace al repositorio"
+                        @onclick="() => OnCopiarUrl.InvokeAsync(Project.RepoUrl)">
+                    <i class="bi bi-clipboard" aria-hidden="true"></i>
+                    @(copiado ? "¡Copiado!" : "Copiar link")
+                </button>
+            }
         </div>
     </div>
 </article>
 
 @code {
     [Parameter, EditorRequired] public Project Project { get; set; } = default!;
+
+    // EventCallback: notifica al padre (ProjectsGrid) que se pidió copiar la URL
+    [Parameter] public EventCallback<string> OnCopiarUrl { get; set; }
+
+    private bool copiado;
+
+    // El padre puede invocar este método tras copiar con éxito
+    public async Task MarcarCopiado()
+    {
+        copiado = true;
+        StateHasChanged();
+        await Task.Delay(2000);
+        copiado = false;
+        StateHasChanged();
+    }
 
     private bool HasLiveUrl => !string.IsNullOrWhiteSpace(Project.LiveUrl);
 
@@ -59,9 +84,7 @@
         get
         {
             if (!string.IsNullOrWhiteSpace(Project.ImageUrl))
-            {
                 return $"background-image: url('{Project.ImageUrl}');";
-            }
 
             var a = string.IsNullOrWhiteSpace(Project.AccentA) ? "#6366f1" : Project.AccentA;
             var b = string.IsNullOrWhiteSpace(Project.AccentB) ? "#ec4899" : Project.AccentB;

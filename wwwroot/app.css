@@ -1,5 +1,3 @@
-@import "tailwindcss";
-
 /* ─── Design tokens ─── */
 :root {
     --nav-h: 76px;
@@ -1267,4 +1265,30 @@ html[data-theme="light"] .hero-title {
     .btn-modern {
         width: 100%;
     }
+}
+/* ─── Toast de copia al portapapeles (JS Interop feedback) ─── */
+.copy-toast {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    background: var(--surface);
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    border-radius: var(--radius-sm);
+    padding: .45rem 1rem;
+    font-size: .875rem;
+    margin-bottom: 1rem;
+    animation: fadeIn .2s ease;
+}
+
+/* ─── Badge de tema activo (CascadingParameter demo) ─── */
+.tema-badge {
+    margin-top: .25rem;
+    margin-bottom: 0;
+}
+
+/* ─── Animación fadeIn para elementos dinámicos ─── */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-4px); }
+    to   { opacity: 1; transform: translateY(0); }
 }

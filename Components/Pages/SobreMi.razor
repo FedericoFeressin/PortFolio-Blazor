@@ -18,6 +18,13 @@
                     <h2 class="card-title">Quién soy</h2>
                     <p class="text-secondary lead">@profile.LongBio</p>
 
+                    @if (Tema is not null)
+                    {
+                        <p class="tema-badge">
+                            <span class="chip">Tema activo: @Tema.NombreTema</span>
+                        </p>
+                    }
+
                     <div class="meta-row">
                         <div class="meta-item">
                             <span class="meta-label">Ubicación</span>
@@ -85,6 +92,9 @@
 
 @code {
     private SiteProfile? profile;
+
+    // CascadingParameter: recibe el tema desde MainLayout
+    [CascadingParameter] public TemaApp? Tema { get; set; }
 
     protected override async Task OnInitializedAsync()
         => profile = await ProfileService.GetProfileAsync();

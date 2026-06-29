@@ -1,0 +1,98 @@
+/* CSS Isolation - SiteFooter.razor.css */
+/* Estos estilos solo aplican al componente SiteFooter (Clase 10) */
+
+.footer[b-rhm7rl3rnp] {
+    border-top: 1px solid var(--border, rgba(255,255,255,0.09));
+    padding: 3rem 0 1.5rem;
+    margin-top: auto;
+}
+
+.footer-grid[b-rhm7rl3rnp] {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .footer-grid[b-rhm7rl3rnp] {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-grid[b-rhm7rl3rnp] {
+        grid-template-columns: 1fr;
+    }
+}
+
+.footer-col[b-rhm7rl3rnp] {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.footer-brand[b-rhm7rl3rnp] {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.footer-tagline[b-rhm7rl3rnp] {
+    font-size: .875rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.footer-email[b-rhm7rl3rnp] {
+    font-size: .875rem;
+}
+
+.footer-heading[b-rhm7rl3rnp] {
+    font-size: .8125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: var(--muted, rgba(255,255,255,0.62));
+    margin: 0;
+}
+
+.footer-nav[b-rhm7rl3rnp] {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.footer-link[b-rhm7rl3rnp] {
+    font-size: .875rem;
+    color: var(--muted, rgba(255,255,255,0.845));
+    transition: color 150ms;
+}
+
+.footer-link:hover[b-rhm7rl3rnp],
+.footer-link.active[b-rhm7rl3rnp] {
+    color: var(--primary, #818cf8);
+}
+
+.footer-info[b-rhm7rl3rnp] {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    font-size: .875rem;
+}
+
+.footer-bottom[b-rhm7rl3rnp] {
+    border-top: 1px solid var(--border, rgba(255,255,255,0.09));
+    padding-top: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+    font-size: .8125rem;
+}
