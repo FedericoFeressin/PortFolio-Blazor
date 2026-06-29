@@ -29,27 +29,19 @@
         <div class="project-actions @(HasLiveUrl ? "has-two" : "has-one")">
             @if (!string.IsNullOrWhiteSpace(Project.LiveUrl))
             {
-                <a class="btn btn-primary btn-modern btn-sm"
-                   href="@Project.LiveUrl"
-                   target="_blank"
-                   rel="noopener noreferrer">
+                <a class="btn btn-primary btn-modern btn-sm" href="@Project.LiveUrl" target="_blank" rel="noopener noreferrer">
                     Ver proyecto
                 </a>
             }
             @if (!string.IsNullOrWhiteSpace(Project.RepoUrl))
             {
-                <a class="btn btn-ghost btn-modern btn-sm"
-                   href="@Project.RepoUrl"
-                   target="_blank"
-                   rel="noopener noreferrer">
+                <a class="btn btn-ghost btn-modern btn-sm" href="@Project.RepoUrl" target="_blank" rel="noopener noreferrer">
                     Ver repositorio
                 </a>
             }
             @if (!string.IsNullOrWhiteSpace(Project.RepoUrl))
             {
-                <button class="btn btn-ghost btn-modern btn-sm"
-                        type="button"
-                        title="Copiar enlace al repositorio"
+                <button class="btn btn-ghost btn-modern btn-sm" type="button" title="Copiar enlace al repositorio"
                         @onclick="() => OnCopiarUrl.InvokeAsync(Project.RepoUrl)">
                     <i class="bi bi-clipboard" aria-hidden="true"></i>
                     @(copiado ? "¡Copiado!" : "Copiar link")
