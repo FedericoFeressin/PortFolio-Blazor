@@ -42,7 +42,7 @@
             @if (!string.IsNullOrWhiteSpace(Project.RepoUrl))
             {
                 <button class="btn btn-ghost btn-modern btn-sm" type="button" title="Copiar enlace al repositorio"
-                        @onclick="() => OnCopiarUrl.InvokeAsync(Project.LiveUrl)">
+                        @onclick="() => OnCopiarUrl.InvokeAsync(Project.RepoUrl)">
                     <i class="bi bi-clipboard" aria-hidden="true"></i>
                     @(copiado ? "¡Copiado!" : "Copiar link")
                 </button>
